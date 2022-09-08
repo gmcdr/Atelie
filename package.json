@@ -1,10 +1,11 @@
 {
   "name": "atelie",
   "version": "1.0.0",
-  "description": "Agendamenton de serviços ",
+  "description": "Agendamento de serviços ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,22 @@
   "bugs": {
     "url": "https://github.com/gmcdr/Atelie/issues"
   },
-  "homepage": "https://github.com/gmcdr/Atelie#readme"
+  "homepage": "https://github.com/gmcdr/Atelie#readme",
+  "keywords": [],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "express": "^4.18.1",
+    "express-flash": "^0.0.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "nodemon": "^2.0.19",
+    "pg": "^8.8.0",
+    "postgresql": "^0.0.1",
+    "sequelize": "^6.21.5",
+    "session-file-store": "^1.5.0",
+    "typescript": "^4.8.3"
+  }
 }
